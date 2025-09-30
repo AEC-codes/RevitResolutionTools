@@ -3,9 +3,9 @@ This module contains the core application logic for the Revit Warnings Manager.
 """
 import tkinter as tk
 from tkinter import ttk
-from .ui import UIManager
-from .handlers import EventHandlers
-from .file_operations import FileOperations
+from ui import UIManager
+from handlers import EventHandlers
+from file_operations import FileOperations
 import os
 from loguru import logger
 

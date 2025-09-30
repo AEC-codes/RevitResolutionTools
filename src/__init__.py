@@ -5,11 +5,11 @@ This package provides tools for parsing Revit warning files, journal files,
 and managing UI for warnings analysis.
 """
 
-from .app import RevitManager
-from .ui import UIManager
-from .handlers import EventHandlers
-from .file_operations import FileOperations
-from .parsers import (
+from app import RevitManager
+from ui import UIManager
+from handlers import EventHandlers
+from file_operations import FileOperations
+from parsers import (
     ErrorHandler,
     HTMLParser,
     JournalParser,

@@ -6,7 +6,7 @@ import os
 from tkinter import filedialog
 from datetime import datetime
 from loguru import logger
-from .parsers import HTMLParser, JournalParser, WorkerLogParser, JournalProblemFinder, ErrorHandler
+from parsers import HTMLParser, JournalParser, WorkerLogParser, JournalProblemFinder, ErrorHandler
 
 class FileOperations:
     """Handles all file loading, saving, and export operations."""
