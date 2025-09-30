@@ -8,7 +8,7 @@ import os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
 
 import tkinter as tk
-from revit_warnings_manager.app import RevitManager
+from app import RevitManager
 import logging
 
 # Configure logging for verbose output
